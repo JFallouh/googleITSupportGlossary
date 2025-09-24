@@ -1,0 +1,32 @@
+nslookup google.ca
+
+or 
+nslookup
+
+set debug
+set type=mx
+set type=AAAA
+
+
+pathping 
+
+
+tracert
+
+test-netconnection 
+
+start-transcript
+stop-transcript
+
+Get-Service wuauserv
+
+To search command
+Get-Command *uau*
+
+Get-Service wuauserv | Format-List
+
+
+To see all the service that are running:
+Get-Service
+
+

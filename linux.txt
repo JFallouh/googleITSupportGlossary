@@ -1,0 +1,39 @@
+nslookup google.ca
+
+or 
+nslookup
+
+set debug
+set type=mx
+set type=AAAA
+
+mtr
+
+nc google.ca 80
+
+
+script
+
+
+service mariadb status
+
+systemctl status mariadb 
+
+traceroute
+
+date
+
+
+reload means the service re-reads the configuration without having to stop and start
+
+
+to run in debug mode:
+sudo dnsmasq -d -q
+
+dnsmasq: A program that provides DNS, DHCP, TFTP and PXE services in a simple package.
+
+dig www.example.com @localhost
+
+
+h paramaeter used to tell dnsmasq that we want to include this list in the information being served
+sudo dnsmasq -d -q -H myhosts.txt
