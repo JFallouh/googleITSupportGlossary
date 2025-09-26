@@ -30,3 +30,32 @@ To see all the service that are running:
 Get-Service
 
 
+_ldap._tcp.dc._msdcs.<domain> just asks DNS which hosts advertise LDAP on Domain Controllers. It doesn’t prove a DC is up—only that its DNS records exist. To check reachability, also test the port.
+nslookup -type=SRV _ldap._tcp.dc._msdcs.totallogistics.com
+
+Resolve-DnsName -Type SRV _ldap._tcp.dc._msdcs.totallogistics.local
+
+you have two DCs: tlc-pdc01 and tlc-dc02. Each advertises LDAP (port 389) via SRV.
+
+Priority/Weight meaning
+
+Priority: lower is tried first. Both are 0, so they’re equal.
+
+Weight: load-share among records with the same priority. Both are 100, so clients distribute traffic roughly evenly.
+
+It’s not a strict “alternate every request”; client DC-locator logic may cache and prefer one for a while.
+
+
+
+Confirm the DC is reachable (not just in DNS):
+Test-NetConnection dc01.totallogistics.com -Port 389    # LDAP
+Test-NetConnection dc01.totallogistics.com -Port 3268   # Global Catalog (LDAP)
+
+
+You can manually force a domain computer to resync by using the command:
+w32tm /resync
+
+Non-admin users can usually query only:
+
+w32tm /query /status
+w32tm /query /source
