@@ -59,3 +59,19 @@ Non-admin users can usually query only:
 
 w32tm /query /status
 w32tm /query /source
+
+
+GPO troubleshooting:
+gpupdate /force
+
+gpupdate /force /sync
+
+The log on server environment variable will contain the name of the domain controller that the computer used to log on
+In powershell:
+$env:LOGONSERVER
+
+In command prompt:
+echo %LOGONSERVER%
+
+why a paticualr gpo is not appiled will result repot in the terminal
+gpresult /R

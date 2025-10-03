@@ -37,3 +37,28 @@ dig www.example.com @localhost
 
 h paramaeter used to tell dnsmasq that we want to include this list in the information being served
 sudo dnsmasq -d -q -H myhosts.txt
+
+
+installing open ldap the open source dirctory manager:
+sudo apt-get install slapd ldap-utils
+
+sudo dpkg-reconfiure slapd
+
+ldapadd
+Takes the input of an LDIF files and adds the context of the files
+
+
+ldapmodify
+Modifes an existing object
+
+ldapdelete
+Will remove the object that the LDIF file refers to
+
+ldapsearch
+will search for entries in your directory database
+
+ Apple has a first-party backup solution available for their Mac operating systems called Time Machine. It operates using an incremental backup model. Time machines supports restoring an entire system from backup or individual files. 
+
+
+ Microsoft also offers a first-party solution called backup and restore. This has two modes of operation, is a file-based version where files are backed up to a zip archive or there's the system image where the entire disk saved block-by-block to a file. File-based backup support either complete backups or incremental ones. System image backup support differential mode, only backing up blocks on the disk that have changed since the last backup. 
+ 
