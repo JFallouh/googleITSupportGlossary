@@ -1,0 +1,90 @@
+Radio frequency RF is range of electromagnetic wave frequencies
+Wi-Fi standards
+Wireless Lan Fundamentals
+
+Wi-Fi standards defined in IEEE 802.11
+Various Ethernet standard are defined in IEEE 802.3
+
+To avoid dupllex and facilitate half duplex communications CSMA/CA (Carrier Senese Multiple Access with Collision Avoidance) is Used to facilitate half-duplex communications.
+
+Carrier Senses Muliple Access with Collision Detection.
+
+CSMA/CD is used in wired networks to detect and recover from collisions.
+CSMA/CA is used in wirelss networks to avoid collisions.
+
+RTS Request to Send 
+CTS Clear to Send
+
+Wi-Fi uses two main bands (meaning frequency ranges)
+2.4 GHz band
+5 GHz band
+
+The 2.4 GHz band typically provides further reach in open space and better penetraion of obstacles such as walls.
+However, more devices tend to use the 2.4 GHz band so interference can be a bigger problem compared to the 5 GHz band
+
+Wi-Fi 6 (802.11ax) has expanded the spectrum range to include a band in the 6 GHz range.
+
+In the 2.4 GHz band, it is recommended to use channels 1,6 and 11.
+
+IMAP + SSL/TLS → encrypts login + mail in transit (typically port 993 or STARTTLS on 143).
+
+SMTP port 25 → server-to-server, often blocked, not for secure client submission (use 587 with STARTTLS instead).
+
+POP3 port 110 → cleartext; secure POP3 is 995.
+
+Multifactor authentication is an authentication scheme that relies on at least two of the five factors: something you know,
+ something you have,
+ something you are,
+ something you do,
+ and somewhere you are.
+ 
+ Since this customer is accident-prone, you should recommend they install an NVMe or SSD device. These solid-state devices are more resistant to drops since they have no moving parts or platters in them. 
+
+
+meter or as large and complex as an industrial control system managing a water treatment plant. Embedded systems might typically have been designed to operate within a closed network. The network elements are all known to the system vendor, and there is no connectivity to wider computer data networks. A legacy system is no longer directly supported by its vendor. Networks often need to retain hosts running DOS or legacy versions of Windows (8.1 and earlier) or old-style mainframe computers to run services that are too complex or expensive to migrate to a more modern platform. Legacy systems usually work well for what they do (which is why they don't get prioritized for replacement), but they represent very severe risks in terms of security vulnerabilities. Unified threat management (UTM) devices are network appliances that provide all the security functions of a firewall, malware scanner, intrusion detection, vulnerability scanner, data loss prevention, content filtering, and other security devices into a single device or appliance.
+
+
+Most wearable fitness devices come with a 3-axis accelerometer to track movement in every direction. Some more advanced trackers will also use a gyroscope to measure the orientation and rotation of the device. However, the accelerometer is still the crucial component to measure the activity of the user. The data collected is then converted into steps and activity and from then into calories and sleep quality. Near field communications (NFC) is a standard for peer-to-peer (2-way) radio communications over very short (around 4") distances that facilitate contactless payment and similar technologies. The inverter (also known as inverter board, screen inverter, or LCD inverter) is a part of the laptop's display assembly. The inverter is a small green board attached to the base of the LCD panel. In a laptop computer, the LCD screen relies on a backlight source to uniformly light up the screen, and the inverter acts as the power supply for this lighting source. If the inverter is faulty, the display will be too dim to easily see without an external light source like a flashlight. The digitizer is a touch-sensitive glass panel covering the LCD in a touchscreen assembly. The digitizer is used to convert touch events to digital signals that can be interpreted as different types of input. The digitizer can be touched and inspected without taking apart the device.
+
+
+ Since the scenario states the VoIP phone works properly from the old desk, it is properly configured, and the hardware itself works. This indicates the problem must be caused by the new desk, which contains a different network cable from the switch to the wall jack in the cubicle. This is most likely a bad cable, such as one with a short in it. To verify this theory, the technician should use a cable tester to verify if the cable does have a short or not. While attenuation is a possible cause of the problem described, it is unlikely since the employee only moved a few desks (10-15 feet), and that is not a large enough distance to cause significant attenuation issues.
+ 
+ 
+ OBJ 3.2 - You should purchase a CAT 5e cable since it can support up to 1000 Mbps (1 Gbps) of bandwidth and is the cheapest option provided that will meet your boss' bandwidth requirements. CAT 5 cables only support 100 Mbps. Therefore, it won't meet the requirements. CAT 6 and CAT 7 cables will support 1 Gbps and 10 Gbps, respectively, but they are more expensive than CAT 5e cables. Therefore, the CAT 5e cable is the best choice for the requirements provided.
+ 
+ 
+11a: 5 GHz, 54 Mbps
+11n: 2.4/5 GHz, up to 600 Mbps
+11ac: 5 GHz, up to ~3.5 Gbps ← correct here
+11ax: 2.4/5 GHz (6 GHz with 6E), up to ~9.6 Gbps
+ 
+ 
+The mATX (microATX) motherboard's form factor is 9.6" x 9.6" in size (24 cm x 24 cm). The mATX form factor is commonly used in smaller computer systems with a small form factor (SFF) case. An mATX motherboard is backward-compatible with the larger ATX motherboard since it contains the same mounting point locations as the full-size board. An ATX motherboard's form factor is 12" x 9.6" in size (305mm x 244mm). ITX is a series of form factors that began with the mini-ITX, but there is no specific size called ITX. The mITX (Mini-ITX) form factor is 6.7" x 6.7" in size (17 cm x 17cm). The mITX is commonly used in smaller computer systems with a small form factor (SFF) case. These motherboards are usually used in computers designed for passive cooling and a low power consumption architecture, such as a home theater PC system. 
+
+
+ A customer is complaining that their printer has begun to fade. While questioning the customer, you found out that they bought the laser printer about 11 months ago, have never performed any maintenance, and have only added more paper to it when it runs out. When checking the page counter, you identified that they had printed over 3,000 pages. Which of the following is MOST likely the cause of the fading? Replace the toner cartridge
+ 
+ In general, fading occurs when the ink or toner is running low. Based on the customer's questioning, it appears they have not done any maintenance, including replacing the toner cartridge. It would be best if you first replaced the toner and then attempted to print a test page. In general, drums and corona wires do not need maintenance until closer to 7,500 to 10,000 printed pages with most laser printers.
+ 
+ 
+ Jitter is a network condition that occurs when a time delay in the sending of data packets over a network connection occurs. Jitter is a big problem for any real-time applications you may be supporting on your networks, like video conferences, voice-over IP, and virtual desktop infrastructure clients. A jitter is simply a variation in the delay of the packets, and this can cause some strange side effects, especially for voice and video calls. If you have ever been in a video conference where someone was speaking and then their voice started speeding up for 5 or 10 seconds and then returned to normal speed, you have been on the receiving end of their network’s jitter. Latency is the measure of time that it takes for data to reach its destination across a network. Usually, we measure network latency as the round-trip time from a workstation to the distant end and back. Throughput is an actual measure of how much data is successfully transferred from the source to a destination. Bandwidth is the maximum rate of data transfer across a given network. Now, bandwidth is more of a theoretical concept that measures how much data could be transferred from a source to a destination under ideal conditions. Therefore, we often measure throughput, instead of bandwidth, to monitor our network performance.
+ 
+ 
+ The transfer belt is the component in a color laser printer that combines the 4 colors before printing it to the paper in one pass. The transfer roller is the component in a laser printer that applies an electric charge to the paper to attract toner from the photoconductor during the imaging process. The pickup roller is the component in a laser printer that turns above a stack of paper to feed a sheet into the feed roller. The duplexing assembly is a component that enables a printer or scanner to use both sides of a page automatically.
+ 
+ Role-based access control (RBAC) restricts access to virtual machines based on the user's role within the organization, ensuring only authorized personnel can modify or access resources.
+ 
+ 
+ Duplex printing is a feature of some computer printers, multi-function printers (MFPs), and copy machines that allows the printing of a sheet of paper on both sides automatically. Without this capability, print devices can only print on a single side of the paper, sometimes called single-sided printing or simplex printing. With duplex printing, information is printed on the front side of a piece of paper, and then the paper is automatically fed back through the printer to print the information on the backside of the paper. Page orientation is how a rectangular page is oriented for normal viewing. The two most common types of orientation are portrait (taller rather than wider) and landscape (wider rather than taller). The collate setting allows the gathering and arranging of individual sheets or other printed components into a predetermined sequence. Collating creates consistent, logical sets from multiple parts, such as printing a series of pages in a report like pages 1, 2, and 3 before printing the second copy. This makes it easier to staple and distribute to people after coming out of the printer. The term transparency was made up as a distractor for this question.
+ 
+ 
+ Laptops and integrated PCs usually use SODIMM memory due to the memory module's smaller footprint. A small outline dual inline memory module (SODIMM) can be purchased in various types and sizes to fit any laptop, router, or other small form factor computing device. For the exam, if you are ever asked about installing memory in a small form factor device or a laptop, the answer will usually be SODIMM. A dual in-line memory module (DIMM) comprises a series of dynamic random-access memory integrated circuits. A DIMM is used in workstations and printers due to its larger size and shape. SDRAM (synchronous DRAM) is a generic name for various kinds of dynamic random access memory (DRAM) that are synchronized with the clock speed that the microprocessor is optimized for. This tends to increase the number of instructions that the processor can perform at a time. Rambus dynamic random access memory (RDRAM) is a memory subsystem designed to transfer data at faster rates. RDAM is made up of random access memory (RAM), a RAM controller, and a bus path that connects RAM to microprocessors and other PC devices. Rambus has not been used for several years and is considered a legacy technology. 
+ 
+ 
+ The X.509 standard is what defines the format of digital certificates.
+It also defines a certificates revocation list or CRL, which is a means to distribute a list of certificates that no longer valid.
+The field defined in the X.509 certificate are:
+1- The version: what version of the X.509 standard the certificate adheres to.
+2- Serial number: A unique identifier for the certificate assigned by the CA. which allows the CA to manage and identify individual certificates.
+3- Certificate signature algorithm: This field indicates what public key algorithm is used for the public key and what hashing algorithm is used to sign the certificate.
+ 
